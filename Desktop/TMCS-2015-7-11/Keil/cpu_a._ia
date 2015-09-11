@@ -1,0 +1,5 @@
+--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" 
+-I "D:\Keil 4\ARM\RV31\INC" 
+-I "D:\Keil 4\ARM\CMSIS\Include" 
+-I "D:\Keil 4\ARM\Inc\ST\STM32F10x" 
+--list ".\cpu_a.lst" --xref -o ".\cpu_a.o" --depend ".\cpu_a.d" "..\McuHal\utMcu\cpu_a.asm"

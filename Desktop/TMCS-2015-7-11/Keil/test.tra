@@ -1,0 +1,44 @@
+*** Creating Trace Output File 'test.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"core_cm3.o"'
+### List of Objects: adding '"system_stm32f10x.o"'
+### List of Objects: adding '".\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\lib\STM32F10xR3.lib"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"stm32f10x_it.o"'
+### List of Objects: adding '"utmcu.o"'
+### List of Objects: adding '".\cpu_a.o"'
+### List of Objects: adding '"utosal.o"'
+### List of Objects: adding '"utboard.o"'
+### List of Objects: adding '"uttest.o"'
+### List of Objects: adding '"utevtproc.o"'
+### List of Objects: adding '"utprt.o"'
+### List of Objects: adding '"encoder.o"'
+### List of Objects: adding '"dspin.o"'
+### List of Objects: adding '"motor.o"'
+### List of Objects: adding '"motor_cal.o"'
+### List of Objects: adding '"motor_config.o"'
+### List of Objects: adding '"can_network.o"'
+### List of Objects: adding '"can_receive.o"'
+### List of Objects: adding '"can_configure.o"'
+### List of Objects: adding '"tmcs_process.o"'
+### List of Objects: adding '"flash.o"'
+### List of Objects: adding '"tmcs_bsp.o"'
+### List of Objects: adding '"iobus.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "core_cm3.o" "system_stm32f10x.o" ".\startup_stm32f10x_hd.o" C:\Users\Administrator\Desktop\TMCS-2015-7-11\lib\STM32F10xR3.lib "main.o" "stm32f10x_it.o" "utmcu.o" ".\cpu_a.o" "utosal.o" "utboard.o" "uttest.o" "utevtproc.o" "utprt.o" "encoder.o" "dspin.o" "motor.o" "motor_cal.o" "motor_config.o" "can_network.o" "can_receive.o" "can_configure.o" "tmcs_process.o" "flash.o" "tmcs_bsp.o" "iobus.o" 
+--library_type=microlib --strict --scatter "test.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\test.map" -o test.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'test.axf'
+### ADS-LD Command File: 'test.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'test.lnp', Handle=0x00000300
+### Writing '.lnp' file
+### ADS-LD Command file 'test.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

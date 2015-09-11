@@ -1,0 +1,17 @@
+07:46 2013-07-14
+	发布时准备用getIncl.bat拷贝出来
+
+21:29 2009-10-7
+	需要改prt为utPrt但还未改，osal改为utOsal未改
+	
+9:51 2010-9-19
+	PIC16至少要用965pro编译器，否则会出现缺少prt.h文件错误
+	
+9:40 2010-9-19
+	除了globals和lib，其余全部删掉	
+	
+10:58 2011年7月21日
+	为了兼容DSP，增加了BIT_FIELD(utLIB.h和utLibCfg.h中)
+	
+11:26 2011年7月21日
+	修改prt中为INT8U为char(改动prt.h和prt.c)

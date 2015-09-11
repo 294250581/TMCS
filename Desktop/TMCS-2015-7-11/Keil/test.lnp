@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "core_cm3.o" "system_stm32f10x.o" ".\startup_stm32f10x_hd.o" C:\Users\Administrator\Desktop\TMCS-2015-7-11\lib\STM32F10xR3.lib "main.o" "stm32f10x_it.o" "utmcu.o" ".\cpu_a.o" "utosal.o" "utboard.o" "uttest.o" "utevtproc.o" "utprt.o" "encoder.o" "dspin.o" "motor.o" "motor_cal.o" "motor_config.o" "can_network.o" "can_receive.o" "can_configure.o" "tmcs_process.o" "flash.o" "tmcs_bsp.o" "iobus.o" 
+--library_type=microlib --strict --scatter "test.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\test.map" -o test.axf

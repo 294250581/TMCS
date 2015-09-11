@@ -1,0 +1,6 @@
+--create .\utLIB.lib
+.\cpu_a.o
+.\utosal.o
+.\utprt.o
+.\utfifo.o
+.\utmcu.o

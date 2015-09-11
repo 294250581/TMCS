@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus 
+-I "D:\Keil 4\ARM\RV31\INC" 
+-I "D:\Keil 4\ARM\CMSIS\Include" 
+-I "D:\Keil 4\ARM\Inc\ST\STM32F10x" 
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "flash.o" --omf_browse "flash.crf" --depend "flash.d" "..\Code\Flash\Flash.c"

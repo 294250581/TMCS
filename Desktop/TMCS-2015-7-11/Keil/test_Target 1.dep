@@ -1,0 +1,695 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (..\USER\Startup\src\core_cm3.c)(0x4C3190FE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "core_cm3.o" --omf_browse "core_cm3.crf" --depend "core_cm3.d")
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+F (..\USER\Startup\src\system_stm32f10x.c)(0x4C3190FE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "system_stm32f10x.o" --omf_browse "system_stm32f10x.crf" --depend "system_stm32f10x.d")
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+F (..\USER\Startup\src\startup_stm32f10x_hd.s)(0x528A13DC)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" --list ".\startup_stm32f10x_hd.lst" --xref -o ".\startup_stm32f10x_hd.o" --depend ".\startup_stm32f10x_hd.d")
+F (..\lib\STM32F10xR3.lib)(0x5304263E)()
+F (..\USER\main.c)(0x55A12BC5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (..\utLIB\utGlobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+I (..\Code\Encoder\Encoder.h)(0x559CE07D)
+I (..\Code\dSPIN\dSPIN.h)(0x54D5990F)
+I (..\Code\Motor\motor.h)(0x55742CAB)
+I (..\Code\CAN\Can_network.h)(0x55640A03)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_can.h)(0x55471123)
+I (..\Code\CAN\Can_configure.h)(0x554B4432)
+I (..\Code\CAN\Can_receive.h)(0x55913445)
+I (..\Code\PROCESS\Tmcs_Process.h)(0x55A126D4)
+I (..\Code\BSP\Tmcs_bsp.h)(0x55A226FB)
+I (..\Code\Iobus\Iobus.h)(0x559C8AD6)
+I (..\Code\Flash\Flash.h)(0x559130BE)
+F (..\USER\stm32f10x_it.c)(0x55A0C77D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "stm32f10x_it.o" --omf_browse "stm32f10x_it.crf" --depend "stm32f10x_it.d")
+I (..\USER\stm32f10x_it.h)(0x5284D398)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\utLIB\utGlobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+I (..\Code\CAN\Can_network.h)(0x55640A03)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_can.h)(0x55471123)
+I (..\Code\CAN\Can_configure.h)(0x554B4432)
+I (..\Code\CAN\Can_receive.h)(0x55913445)
+I (..\Code\PROCESS\Tmcs_Process.h)(0x55A126D4)
+I (..\Code\BSP\Tmcs_bsp.h)(0x55A226FB)
+I (..\Code\dSPIN\dSPIN.h)(0x54D5990F)
+I (..\Code\Motor\motor.h)(0x55742CAB)
+I (..\Code\Encoder\Encoder.h)(0x559CE07D)
+I (..\Code\Iobus\Iobus.h)(0x559C8AD6)
+F (..\McuHal\utMcu\utMcu.c)(0x5533B2CA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "utmcu.o" --omf_browse "utmcu.crf" --depend "utmcu.d")
+I (..\McuHal\utMcu\utMCU.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\utLIB\utGlobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_iwdg.h)(0x4C319100)
+F (..\McuHal\utMcu\cpu_a.asm)(0x46832498)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" --list ".\cpu_a.lst" --xref -o ".\cpu_a.o" --depend ".\cpu_a.d")
+F (..\utLIB\utOsal\utOsal.c)(0x55A0E45A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "utosal.o" --omf_browse "utosal.crf" --depend "utosal.d")
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+I (..\utLIB\utGlobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+F (..\McuHal\utBoard\utBoard.c)(0x5533B125)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "utboard.o" --omf_browse "utboard.crf" --depend "utboard.d")
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\utLIB\utGlobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+F (..\McuHal\utBoard\utTest.c)(0x5237FA38)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "uttest.o" --omf_browse "uttest.crf" --depend "uttest.d")
+I (..\McuHal\utBoard\utTest.h)(0x51FE0ADC)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\utLIB\utGlobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+F (..\McuHal\utEvtProc\utEvtProc.c)(0x55A0FD95)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "utevtproc.o" --omf_browse "utevtproc.crf" --depend "utevtproc.d")
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\utLIB\utGlobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+I (..\Code\Encoder\Encoder.h)(0x559CE07D)
+I (..\Code\dSPIN\dSPIN.h)(0x54D5990F)
+I (..\Code\Motor\motor.h)(0x55742CAB)
+I (..\Code\CAN\Can_network.h)(0x55640A03)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_can.h)(0x55471123)
+I (..\Code\CAN\Can_configure.h)(0x554B4432)
+I (..\Code\CAN\Can_receive.h)(0x55913445)
+I (..\Code\PROCESS\Tmcs_Process.h)(0x55A126D4)
+I (..\Code\BSP\Tmcs_bsp.h)(0x55A226FB)
+I (..\Code\Iobus\Iobus.h)(0x559C8AD6)
+F (..\utLIB\utPrt\utPrt.c)(0x55740332)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "utprt.o" --omf_browse "utprt.crf" --depend "utprt.d")
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utGlobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+F (..\Code\Encoder\encoder.c)(0x55A0CD34)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "encoder.o" --omf_browse "encoder.crf" --depend "encoder.d")
+I (..\Code\Encoder\encoder.h)(0x559CE07D)
+I (..\utLIB\utGlobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+F (..\Code\dSPIN\dSPIN.c)(0x559D15B1)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "dspin.o" --omf_browse "dspin.crf" --depend "dspin.d")
+I (..\Code\dSPIN\dSPIN.h)(0x54D5990F)
+I (..\utLIB\utglobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+F (..\Code\Motor\motor.c)(0x55A12C50)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "motor.o" --omf_browse "motor.crf" --depend "motor.d")
+I (..\Code\Motor\motor.h)(0x55742CAB)
+I (..\Code\dSPIN\dSPIN.h)(0x54D5990F)
+I (..\utLIB\utglobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+I (..\Code\Motor\motor_cal.h)(0x54ABE3D6)
+F (..\Code\Motor\motor_cal.c)(0x555C7998)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "motor_cal.o" --omf_browse "motor_cal.crf" --depend "motor_cal.d")
+I (..\Code\Motor\motor_cal.h)(0x54ABE3D6)
+I (..\Code\Motor\motor.h)(0x55742CAB)
+I (..\Code\dSPIN\dSPIN.h)(0x54D5990F)
+I (..\utLIB\utglobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+F (..\Code\Motor\motor_config.c)(0x55A2667D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "motor_config.o" --omf_browse "motor_config.crf" --depend "motor_config.d")
+I (..\Code\Motor\motor.h)(0x55742CAB)
+I (..\Code\dSPIN\dSPIN.h)(0x54D5990F)
+I (..\utLIB\utglobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+F (..\Code\CAN\can_network.c)(0x556410CB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "can_network.o" --omf_browse "can_network.crf" --depend "can_network.d")
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (..\Code\CAN\can_network.h)(0x55640A03)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_can.h)(0x55471123)
+I (..\Code\CAN\Can_configure.h)(0x554B4432)
+I (..\Code\CAN\Can_receive.h)(0x55913445)
+I (..\utLIB\utGlobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+I (..\Code\PROCESS\Tmcs_Process.h)(0x55A126D4)
+I (..\Code\BSP\Tmcs_bsp.h)(0x55A226FB)
+I (..\Code\dSPIN\dSPIN.h)(0x54D5990F)
+I (..\Code\Motor\motor.h)(0x55742CAB)
+I (..\Code\Encoder\Encoder.h)(0x559CE07D)
+I (..\Code\Iobus\Iobus.h)(0x559C8AD6)
+F (..\Code\CAN\can_receive.c)(0x55AB5291)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "can_receive.o" --omf_browse "can_receive.crf" --depend "can_receive.d")
+I (..\Code\CAN\Can_receive.h)(0x55913445)
+I (..\utLIB\utGlobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+I (..\Code\CAN\Can_network.h)(0x55640A03)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_can.h)(0x55471123)
+I (..\Code\CAN\Can_configure.h)(0x554B4432)
+I (..\Code\PROCESS\Tmcs_Process.h)(0x55A126D4)
+I (..\Code\BSP\Tmcs_bsp.h)(0x55A226FB)
+I (..\Code\dSPIN\dSPIN.h)(0x54D5990F)
+I (..\Code\Motor\motor.h)(0x55742CAB)
+I (..\Code\Encoder\Encoder.h)(0x559CE07D)
+I (..\Code\Iobus\Iobus.h)(0x559C8AD6)
+F (..\Code\CAN\can_configure.c)(0x55642540)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "can_configure.o" --omf_browse "can_configure.crf" --depend "can_configure.d")
+I (..\Code\CAN\Can_configure.h)(0x554B4432)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+F (..\Code\PROCESS\Tmcs_process.c)(0x55BAE919)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "tmcs_process.o" --omf_browse "tmcs_process.crf" --depend "tmcs_process.d")
+I (..\Code\PROCESS\Tmcs_process.h)(0x55A126D4)
+I (..\utLIB\utGlobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+I (..\Code\BSP\Tmcs_bsp.h)(0x55A226FB)
+I (..\Code\dSPIN\dSPIN.h)(0x54D5990F)
+I (..\Code\Motor\motor.h)(0x55742CAB)
+I (..\Code\Encoder\Encoder.h)(0x559CE07D)
+I (..\Code\Iobus\Iobus.h)(0x559C8AD6)
+I (..\Code\Flash\Flash.h)(0x559130BE)
+F (..\Code\Flash\Flash.c)(0x5591369A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "flash.o" --omf_browse "flash.crf" --depend "flash.d")
+I (..\Code\Flash\FLASH.h)(0x559130BE)
+I (..\utLIB\utGlobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+I (..\Code\PROCESS\Tmcs_process.h)(0x55A126D4)
+I (..\Code\BSP\Tmcs_bsp.h)(0x55A226FB)
+I (..\Code\dSPIN\dSPIN.h)(0x54D5990F)
+I (..\Code\Motor\motor.h)(0x55742CAB)
+I (..\Code\Encoder\Encoder.h)(0x559CE07D)
+I (..\Code\Iobus\Iobus.h)(0x559C8AD6)
+F (..\Code\BSP\Tmcs_bsp.c)(0x55A226ED)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "tmcs_bsp.o" --omf_browse "tmcs_bsp.crf" --depend "tmcs_bsp.d")
+I (..\Code\BSP\Tmcs_bsp.h)(0x55A226FB)
+I (..\Code\dSPIN\dSPIN.h)(0x54D5990F)
+I (..\utLIB\utglobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)
+I (..\Code\Motor\motor.h)(0x55742CAB)
+I (..\Code\Encoder\Encoder.h)(0x559CE07D)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdlib.h)(0x516E81E6)
+F (..\Code\Iobus\Iobus.c)(0x55BB610C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER\Startup\inc -I..\lib\StdPeriphDriver\inc -I..\USER -I..\utLIB\utOsal -I..\McuHal\utBoard -I..\McuHal\utEvtProc -I..\McuHal\utConfig -I..\McuHal\utMcu -I..\utLIB -I..\utLIB\utPrt -I..\Code\Encoder -I..\Code\dSPIN -I..\Code\Motor -I..\Code\CAN -I..\Code\PROCESS -I..\Code\Flash -I..\Code\BSP -I..\Code\Iobus -I "D:\Keil 4\ARM\RV31\INC" -I "D:\Keil 4\ARM\CMSIS\Include" -I "D:\Keil 4\ARM\Inc\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "iobus.o" --omf_browse "iobus.crf" --depend "iobus.d")
+I (..\Code\Iobus\Iobus.h)(0x559C8AD6)
+I (..\utLIB\utGlobals.h)(0x5533A6BF)
+I (..\utLIB\utLib.h)(0x5573F4B1)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdio.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\string.h)(0x516E81E6)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdarg.h)(0x516E81E4)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\math.h)(0x516E81E6)
+I (..\McuHal\utConfig\utLibCfg.h)(0x510738F6)
+I (..\McuHal\utBoard\utBoard.h)(0x557405BA)
+I (..\McuHal\utMcu\utMcu.h)(0x55642D02)
+I (..\McuHal\utConfig\utMcuCfg.h)(0x5533A27D)
+I (..\USER\Startup\inc\stm32f10x.h)(0x523067BC)
+I (..\USER\Startup\inc\core_cm3.h)(0x4C3190FE)
+I (D:\Keil 4\ARM\ARMCC\bin\..\include\stdint.h)(0x516E81E6)
+I (..\USER\Startup\inc\system_stm32f10x.h)(0x4C3190FE)
+I (..\USER\Startup\inc\stm32f10x_conf.h)(0x52A87234)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_adc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dac.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_dma.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_exti.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_flash.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_gpio.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_rcc.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_spi.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_tim.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\stm32f10x_usart.h)(0x4C319100)
+I (..\lib\StdPeriphDriver\inc\misc.h)(0x4C319100)
+I (..\McuHal\utEvtProc\utEvtProc.h)(0x51FB4DB6)
+I (..\utLIB\utPrt\utPrt.h)(0x557407D8)
+I (..\utLIB\utOsal\utOsal.h)(0x55A0E3C1)

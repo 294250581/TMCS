@@ -1,0 +1,3 @@
+---- *GPIOC* Matches (0 in 0 files) ----
+---- MotorX Flag Matches (1 in 0 files) ----
+Stm32f10x_it.c (user):		utPrt("MotorX Flag\n");
